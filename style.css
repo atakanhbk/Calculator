@@ -1,0 +1,78 @@
+.calculatorMain {
+    width: 350px;
+    height: 400px;
+    background-color: #181B28;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.displayScreen {
+    width: 100%;
+    height: 15%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+
+.input {
+    height: 100%;
+    width: 90%;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+
+.Reset {
+    height: 100%;
+    width: 10%;
+    margin: 0px 1px 0px 1px;
+    background-color: #e6326b;
+    border-radius: 3px;
+    border: 0px;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+
+}
+
+.keys {
+    width: 100%;
+    height: 80%;
+    background-color: #1b192c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.number {
+    width: 27%;
+}
+
+.transactions {
+    width: 15%;
+}
+
+.number,
+.transactions {
+    height: 50px;
+    background-color: #5F2A89;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   font-weight: bold;
+   font-size: 150%;
+}
+
